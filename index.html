@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Static Web App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MyApp</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to My Static Web App</h1>
+      <p>A clean, simple site hosted on Azure Static Web Apps.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>This is a static web app built with plain HTML and CSS, deployed using Azure Static Web Apps. No frameworks, no build tools — just simple, fast web content.</p>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>⚡ Fast</h3>
+          <p>Served from a global CDN for low latency worldwide.</p>
+        </div>
+        <div class="card">
+          <h3>🔒 Secure</h3>
+          <p>Free SSL certificate included with Azure Static Web Apps.</p>
+        </div>
+        <div class="card">
+          <h3>🚀 Easy Deploy</h3>
+          <p>Push to GitHub and your site updates automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 MyApp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
